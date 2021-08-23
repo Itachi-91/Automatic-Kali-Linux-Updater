@@ -40,7 +40,7 @@ def menu():
             functions.clear()
             print("| INSTALLING ROOT_LOGIN IN  KALI LINUX             |")
             print("|--------------------------------------------------|")
-            function.install_root()
+            functions.install_root()
         else:
             display.good_bye_message()
     except Exception as e:
